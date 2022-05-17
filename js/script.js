@@ -1,7 +1,3 @@
-document.getElementById("quantidade").addEventListener("keypress", function (e) {
-  e.preventDefault();
-})
-
 function adicionar() {
   document.getElementById("inputs").innerHTML = "";
   quantidade = parseInt(document.getElementById("quantidade").value);

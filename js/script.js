@@ -7,7 +7,7 @@ function adicionar() {
   document.getElementById("inputs").innerHTML = "";
   quantidade = parseInt(document.getElementById("quantidade").value);
   for (var i = 1; i <= quantidade; i++) {
-    document.getElementById("inputs").innerHTML += "<label for='texto'>" + i + "° texto: </label><input type='text' name='carro_" + i + "' id='texto_" + i + "' placeholder='Digite o nome do texto " + i + "...'></br>";
+    document.getElementById("inputs").innerHTML += "<label for='texto'>" + i + "° texto: </label><input type='text' name='texto_" + i + "' id='texto_" + i + "' placeholder='Digite o nome do texto " + i + "...'></br>";
   }
 }
 
